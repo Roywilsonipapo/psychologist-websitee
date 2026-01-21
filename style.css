@@ -130,3 +130,18 @@ input, textarea {
 }
 
 footer { text-align: center; padding: 50px; font-size: 0.8rem; color: var(--muted); border-top: 1px solid #eee; }
+
+/* Profile Image Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Space between photo and name */
+}
+
+.profile-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; /* Makes it a circle */
+    object-fit: cover; /* Prevents stretching */
+    border: 2px solid var(--accent); /* Adds a thin gold ring around it */
+}
