@@ -3,89 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Marlene Ato | Clinical Psychology & Wellness</title>
-    
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Dr. Marlene Ato | Clinical Psychology</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <nav>
+    <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">
-                <img src="doctor.jpg" alt="Dr. Marlene Ato" class="profile-img">
-                DR. MARLENE <span>ATO</span>
+            <div class="logo-group">
+                <div class="profile-circle">
+                    <img src="doctor.jpg" alt="Dr. Ato" onerror="this.style.display='none'">
+                </div>
+                <div class="logo-text">DR. MARLENE <span>ATO</span></div>
             </div>
-            <ul>
-                <li><a href="#about">Philosophy</a></li>
+            <ul class="nav-menu">
+                <li><a href="#journey">The Journey</a></li>
                 <li><a href="#services">Specialties</a></li>
-                <li><a href="#contact" class="nav-btn">Request Consultation</a></li>
+                <li><a href="#contact" class="nav-cta">Consultation</a></li>
             </ul>
         </div>
     </nav>
 
-    <section class="hero">
-        <div class="hero-overlay">
-            <div class="hero-text">
-                <span class="subtitle">Clinical Excellence • Compassionate Care</span>
-                <h1>A space for healing, <br><em>growth</em>, and clarity.</h1>
-                <p>Evidence-based psychological services tailored to your unique journey.</p>
-                <div class="hero-actions">
-                    <a href="#contact" class="btn-primary">Begin Your Journey</a>
-                    <a href="#services" class="btn-secondary">View Specialties</a>
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-tagline">Clinical Excellence • Compassionate Care</p>
+            <h1>A space for healing, <br><em>growth</em>, and clarity.</h1>
+            <a href="#contact" class="main-button">Begin Your Journey</a>
+        </div>
+    </header>
+
+    <section id="journey" class="story-section">
+        <h2 class="section-title">The Path to Restoration</h2>
+        <div class="story-grid">
+            <div class="story-card">
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1516589174184-c68526614460?auto=format&fit=crop&w=800" alt="Struggle">
+                </div>
+                <div class="story-body">
+                    <h3>The Burden</h3>
+                    <p>Understanding the weight of depression and the first steps toward light.</p>
+                </div>
+            </div>
+            <div class="story-card highlight">
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1527137341206-69444199658e?auto=format&fit=crop&w=800" alt="Healing">
+                </div>
+                <div class="story-body">
+                    <h3>The Connection</h3>
+                    <p>Expert clinical guidance to navigate the journey of healing.</p>
+                </div>
+            </div>
+            <div class="story-card">
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1499728603263-13726abce5fd?auto=format&fit=crop&w=800" alt="Victory">
+                </div>
+                <div class="story-body">
+                    <h3>The Light</h3>
+                    <p>Reclaiming a life of purpose, joy, and emotional freedom.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services" class="services">
-        <div class="section-header">
-            <h2>Clinical Specialties</h2>
-            <div class="line"></div>
-        </div>
-        <div class="service-grid">
-            <div class="service-card">
-                <div class="icon">01</div>
-                <h3>Individual Therapy</h3>
-                <p>Deeply personal sessions focusing on anxiety, trauma, and identity.</p>
-            </div>
-            <div class="service-card">
-                <div class="icon">02</div>
-                <h3>Executive Coaching</h3>
-                <p>Optimizing performance and mental resilience for high-pressure careers.</p>
-            </div>
-            <div class="service-card">
-                <div class="icon">03</div>
-                <h3>Mindfulness Based CBT</h3>
-                <p>Integrating modern science with ancient grounding techniques.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact-section">
-        <div class="contact-container">
-            <div class="contact-info">
-                <h2>Confidential Contact</h2>
-                <p>Ready to take the first step? Send a secure message to our office. We typically respond within 24 hours.</p>
-                <div class="location">Located in: <span>Medical District, NY</span></div>
-            </div>
-            <form id="contactForm" class="modern-form">
-                <div class="form-row">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Email Address" required>
-                </div>
-                <textarea placeholder="How may I support you today?" rows="6"></textarea>
-                <button type="submit" class="submit-btn">Send Secure Inquiry</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 Dr. Marlene Ato. All Rights Reserved. | Privacy Policy</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
