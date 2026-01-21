@@ -4,66 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Marlene Ato | Clinical Psychology</title>
+    
     <link rel="stylesheet" href="style.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo-group">
-                <div class="profile-circle">
-                    <img src="doctor.jpg" alt="Dr. Ato" onerror="this.style.display='none'">
+    <nav class="main-nav">
+        <div class="nav-wrapper">
+            <div class="brand">
+                <div class="profile-box">
+                    <img src="doctor.jpg.jpg" alt="Dr. Marlene Ato" class="profile-pic">
                 </div>
-                <div class="logo-text">DR. MARLENE <span>ATO</span></div>
+                <div class="name-logo">DR. MARLENE <span>ATO</span></div>
             </div>
-            <ul class="nav-menu">
+            <ul class="menu">
                 <li><a href="#journey">The Journey</a></li>
                 <li><a href="#services">Specialties</a></li>
-                <li><a href="#contact" class="nav-cta">Consultation</a></li>
+                <li><a href="#contact" class="cta-pill">Consultation</a></li>
             </ul>
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="hero-content">
-            <p class="hero-tagline">Clinical Excellence • Compassionate Care</p>
+    <header class="hero-header">
+        <div class="hero-inner">
+            <span class="tagline">Clinical Excellence • Compassionate Care</span>
             <h1>A space for healing, <br><em>growth</em>, and clarity.</h1>
-            <a href="#contact" class="main-button">Begin Your Journey</a>
+            <p>Evidence-based psychological services tailored to your unique journey.</p>
+            <a href="#contact" class="btn-main">Begin Your Journey</a>
         </div>
     </header>
 
-    <section id="journey" class="story-section">
-        <h2 class="section-title">The Path to Restoration</h2>
-        <div class="story-grid">
-            <div class="story-card">
-                <div class="image-box">
-                    <img src="https://images.unsplash.com/photo-1516589174184-c68526614460?auto=format&fit=crop&w=800" alt="Struggle">
+    <section id="journey" class="journey-path">
+        <h2 class="title-center">The Path to Restoration</h2>
+        <div class="grid-container">
+            
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=800" alt="Feeling Overwhelmed">
                 </div>
-                <div class="story-body">
+                <div class="card-content">
                     <h3>The Burden</h3>
-                    <p>Understanding the weight of depression and the first steps toward light.</p>
+                    <p>When the world feels heavy and the path forward is unclear. We begin by honoring where you are.</p>
                 </div>
             </div>
-            <div class="story-card highlight">
-                <div class="image-box">
-                    <img src="https://images.unsplash.com/photo-1527137341206-69444199658e?auto=format&fit=crop&w=800" alt="Healing">
+
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1527137341206-69444199658e?q=80&w=800" alt="Professional Consultation">
                 </div>
-                <div class="story-body">
+                <div class="card-content">
                     <h3>The Connection</h3>
-                    <p>Expert clinical guidance to navigate the journey of healing.</p>
+                    <p>Finding strength through clinical insight and a safe, therapeutic partnership.</p>
                 </div>
             </div>
-            <div class="story-card">
-                <div class="image-box">
-                    <img src="https://images.unsplash.com/photo-1499728603263-13726abce5fd?auto=format&fit=crop&w=800" alt="Victory">
+
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1499728603263-13726abce5fd?q=80&w=800" alt="Reclaiming Joy">
                 </div>
-                <div class="story-body">
+                <div class="card-content">
                     <h3>The Light</h3>
-                    <p>Reclaiming a life of purpose, joy, and emotional freedom.</p>
+                    <p>Re-emerging with clarity, resilience, and the tools to lead a fulfilling, functional life.</p>
                 </div>
             </div>
+
         </div>
+    </section>
+
+    <section id="contact" style="padding: 80px 5%; text-align: center; background: #fff;">
+        <h2>Ready to Speak?</h2>
+        <p style="margin-bottom: 20px;">Contact Dr. Marlene Ato's office today.</p>
+        <a href="mailto:office@drmarleneato.com" class="btn-main">Email the Office</a>
     </section>
 
 </body>
